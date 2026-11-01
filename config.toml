@@ -1,0 +1,12 @@
+[model]
+name="qwen2.5-coder:3b"
+num_ctx=4096
+num_thread=6
+keep_alive_minutes=30
+
+[workspace]
+folder="Gh7-Dev"
+
+[limits]
+max_attempts=5
+timeout_seconds=30
